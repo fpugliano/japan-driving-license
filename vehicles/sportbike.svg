@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200"><rect width="300" height="200" rx="0" fill="#EAF4FB"/><rect y="170" width="300" height="30" fill="#D9E3EA"/><ellipse cx="150" cy="172" rx="132" ry="6" fill="#000" opacity=".12"/><g stroke="#1d1d1f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><circle cx="80" cy="144" r="26" fill="#2b2b2e"/><circle cx="80" cy="144" r="11.7" fill="#C9CED3" stroke-width="3"/><circle cx="222" cy="144" r="26" fill="#2b2b2e"/><circle cx="222" cy="144" r="11.7" fill="#C9CED3" stroke-width="3"/>
+<path d="M80 144 L130 110 L200 108 L222 144" fill="none" stroke-width="5"/>
+<path d="M104 104 q20 -26 60 -24 l40 2 q22 2 32 22 l8 18 l-30 4 l-20 -16 h-66 z" fill="#D7263D"/>
+<path d="M200 84 q18 -6 30 10 l-24 4 z" fill="#BFE3F7"/>
+<rect x="120" y="76" width="40" height="10" rx="4" fill="#2b2b2e"/>
+<rect x="140" y="118" width="40" height="22" rx="5" fill="#6B7177"/>
+<path d="M70 108 h28" stroke-width="6"/>
+<text x="150" y="44" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#1d1d1f" stroke-width="0">over 400 cc</text></g></svg>

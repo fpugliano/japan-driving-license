@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://japan-driving-license.oroboropress.com/sitemap.xml

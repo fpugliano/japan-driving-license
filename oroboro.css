@@ -1,0 +1,48 @@
+/* Oroboro Press look, shared by all pages: same type, greys and blue as oroboropress.com, plus the top bar and the footer band. */
+:root{
+  --ob-font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Figtree","Helvetica Neue","Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;
+  --ob-mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+  --ob-bg:#F5F5F7; --ob-card:#FFFFFF; --ob-ink:#1D1D1F; --ob-muted:#6E6E73; --ob-line:#E5E5EA;
+  --ob-blue:#0071E3; --ob-link:#0066CC; --ob-blue-soft:#E8F2FD;
+  --ob-green:#248A3D; --ob-green-soft:#E3F5E8; --ob-red:#D70015; --ob-red-soft:#FDE8EA;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ob-bg:#000000; --ob-card:#1C1C1E; --ob-ink:#F5F5F7; --ob-muted:#98989D; --ob-line:#38383A;
+  --ob-blue:#2997FF; --ob-link:#2997FF; --ob-blue-soft:#0B2A47;
+  --ob-green:#30D158; --ob-green-soft:#0F2E1A; --ob-red:#FF453A; --ob-red-soft:#3A1412; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --ob-bg:#000000; --ob-card:#1C1C1E; --ob-ink:#F5F5F7; --ob-muted:#98989D; --ob-line:#38383A;
+  --ob-blue:#2997FF; --ob-link:#2997FF; --ob-blue-soft:#0B2A47;
+  --ob-green:#30D158; --ob-green-soft:#0F2E1A; --ob-red:#FF453A; --ob-red-soft:#3A1412; color-scheme:dark}
+
+body{font-family:var(--ob-font);letter-spacing:-0.01em;-webkit-font-smoothing:antialiased}
+h1,h2,h3{letter-spacing:-0.02em}
+
+/* top bar */
+.ob-bar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--ob-card) 82%,transparent);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--ob-line)}
+.ob-bar .ob-in{max-width:980px;margin:0 auto;display:flex;align-items:center;gap:8px 20px;flex-wrap:wrap;padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px))}
+.ob-brand{display:inline-flex;align-items:center;gap:10px;color:var(--ob-ink);text-decoration:none;font-weight:600;font-size:17px;margin-right:auto}
+.ob-brand img{width:28px;height:28px;display:block}
+.ob-nav{display:flex;gap:4px 18px;flex-wrap:wrap}
+.ob-nav a{color:var(--ob-ink);text-decoration:none;font-size:14px;opacity:.8}
+.ob-nav a:hover{opacity:1;color:var(--ob-link)}
+.ob-nav a[aria-current="page"]{opacity:1;font-weight:600}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ob-brand img,:root:not([data-theme="light"]) .ob-mark{filter:invert(1)}}
+:root[data-theme="dark"] .ob-brand img,:root[data-theme="dark"] .ob-mark{filter:invert(1)}
+
+/* footer band */
+.ob-foot{background:var(--ob-bg);border-top:1px solid var(--ob-line);color:var(--ob-muted);font-size:12px;line-height:1.5}
+.ob-foot .ob-in{max-width:980px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-right,0px)) 28px max(16px,env(safe-area-inset-left,0px));display:grid;gap:6px}
+.ob-foot a{color:var(--ob-ink);text-decoration:none}
+.ob-foot a:hover{text-decoration:underline}
+.ob-foot .ob-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px}
+
+/* Apple-style pill button */
+.ob-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 22px;border-radius:980px;background:var(--ob-blue);color:#fff;text-decoration:none;font-size:17px;font-weight:400;border:0}
+.ob-button:hover{filter:brightness(1.08);color:#fff}
+
+/* line breaks: keep short phrases together */
+.nw{white-space:nowrap}
+
+/* "Last checked" date: shows when the content was last verified */
+.ob-checked{margin:0;font-size:13px;color:var(--ob-muted)}

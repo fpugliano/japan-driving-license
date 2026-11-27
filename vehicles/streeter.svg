@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200"><rect width="300" height="200" rx="0" fill="#EAF4FB"/><rect y="170" width="300" height="30" fill="#D9E3EA"/><ellipse cx="150" cy="172" rx="132" ry="6" fill="#000" opacity=".12"/><g stroke="#1d1d1f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><circle cx="80" cy="152" r="18" fill="#2b2b2e"/><circle cx="80" cy="152" r="8.1" fill="#C9CED3" stroke-width="3"/><circle cx="112" cy="152" r="18" fill="#2b2b2e"/><circle cx="112" cy="152" r="8.1" fill="#C9CED3" stroke-width="3"/><circle cx="214" cy="152" r="18" fill="#2b2b2e"/><circle cx="214" cy="152" r="8.1" fill="#C9CED3" stroke-width="3"/>
+<rect x="46" y="62" width="72" height="54" rx="5" fill="#F2F4F6"/>
+<path d="M74 128 q0 -14 16 -16 h46 l8 14 h36 l14 -50 h16 l-12 56 q-4 18 -22 20 h-90 q-12 0 -12 -12 z" fill="#F7B733"/>
+<rect x="118" y="100" width="40" height="11" rx="5" fill="#2b2b2e"/>
+<path d="M196 70 l20 -6" stroke-width="5"/>
+<text x="150" y="40" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#1d1d1f" stroke-width="0">3 wheels, 50 cc or less</text></g></svg>
