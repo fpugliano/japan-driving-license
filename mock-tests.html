@@ -154,6 +154,7 @@ main{padding-block:28px 64px}
 
 /* vehicles */
 .vsec{display:grid;gap:12px}
+.howto{margin:8px 0 4px}.howto .vcard p{margin:0;font-size:.92rem}
 .lede{max-width:65ch;color:var(--muted)}
 .nest{display:grid;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
 .set{border:1.5px solid var(--line);border-radius:12px;padding:12px;display:grid;gap:10px}
@@ -301,6 +302,17 @@ h3,.tcard .name,.qnum,.set>.lab,.vcard .ja,.lessonhero .name,.inner b,.words .w,
     <span class="icons" id="keyicons"></span>
     <span><span class="name">Then: Often tested and trick questions</span><br><span class="meta" id="keymeta"></span></span>
   </a>
+  <section class="vsec howto">
+    <h2>How to read the questions</h2>
+    <div class="cards">
+      <div class="vcard"><h3>1. Judge one rule only</h3>
+        <p>Each statement checks one rule. Treat everything else as normal. "A car may park 3 meters from a fire alarm box" only asks if you know the distance. The rule is 1 meter, so the answer is ○.</p></div>
+      <div class="vcard"><h3>2. Don't add what isn't written</h3>
+        <p>If the statement doesn't mention a corner, a sign, rain or a pedestrian, there isn't one. Answer the statement as written, not the situations it reminds you of.</p></div>
+      <div class="vcard"><h3>3. Watch absolutes and numbers</h3>
+        <p>Almost every rule has an exception, so <i>always</i>, <i>never</i>, <i>only</i> and <i>in any situation</i> often make a statement false. One wrong number makes the whole statement false too.</p></div>
+    </div>
+  </section>
   <div class="modes">
     <div class="seg" role="group" aria-label="Mode">
       <button id="m-exam" aria-pressed="true">Exam mode</button>
@@ -315,7 +327,7 @@ h3,.tcard .name,.qnum,.set>.lab,.vcard .ja,.lessonhero .name,.inner b,.words .w,
     <button class="btn" id="reset-no">Cancel</button>
     <button class="btn primary" id="reset-yes">Reset</button>
   </div>
-  <p class="note">Best scores and missed questions are kept only in this browser. Watch for words like <i>always</i>, <i>never</i>, <i>only</i> and <i>must</i>: they often make a statement false. Questions like that are marked "Trick question" in the answers.</p>
+  <p class="note">Best scores and missed questions are kept only in this browser. False statements built on words like <i>always</i>, <i>never</i>, <i>only</i> and <i>must</i> are marked "Trick question" in the answers.</p>
 </section>
 
 <!-- SIGNS LESSON -->
